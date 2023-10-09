@@ -26,8 +26,8 @@
     "webpack-dev-server": "^4.9.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "docker-compose -f docker-compose.yml -f docker-compose-dev.yml up -d --build",
+    "build": "docker-compose -f docker-compose.yml -f docker-compose-prod.yml up -d --build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
