@@ -1,0 +1,82 @@
+@import '../../styles/variables';
+
+
+.login {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.login-container {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: $primary-color;
+    color: $secondary-color;
+    font-weight: bold;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 16px 7px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.28);
+    -moz-box-shadow: 1px 1px 16px 7px rgba(0,0,0,0.28);
+
+    width: 500px;
+
+    &-title {
+        color: $secondary-color;
+        font-weight: 900;
+        margin: 0 0 40px 0 ;
+    }
+
+}
+
+.login-form {
+
+    display: flex;
+    flex-direction: column;
+
+    &-mail, &-password {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        align-items: center;
+
+        &>input {
+            height: 40px;
+            border-radius: 10px;
+            border: 2px solid $secondary-color;
+            outline: none;
+            width: 200px;
+
+            &::placeholder {
+                color: $primary-color;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+    &-button {
+        background-color: $secondary-color;
+        padding: 15px;
+        margin: auto;
+        width: 200px;
+        border: none;
+        border-radius: 7px;
+        font-weight: bold;
+        color: $primary-color;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+
+}
+
+.register-btn {
+    color: $secondary-color;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 20px;
+}

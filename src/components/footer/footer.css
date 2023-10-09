@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.footer-container {
+  background-color: #EBDE57;
+  color: #492B9E;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  padding: 30px;
+  margin: auto;
+}
+.footer-container > span > a {
+  text-decoration: none;
+  cursor: pointer;
+}/*# sourceMappingURL=footer.css.map */

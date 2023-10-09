@@ -1,0 +1,17 @@
+@import '../../styles/_variables';
+
+
+.featured-movies-container {
+    display: flex;
+    padding: 30px 0 20px 0;
+    overflow-x: scroll;
+    z-index: 1;
+
+  }
+
+.trending-hdl {
+    color: $primary-color;
+    font-weight: 900;
+    margin: 20px 0 0 50px ;
+}
+

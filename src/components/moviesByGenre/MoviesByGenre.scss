@@ -1,0 +1,18 @@
+@import '../../styles/_variables';
+
+.movies-container {
+    width: 100%;
+}
+
+.genre-movies-container {
+    display: flex;
+    padding: 0 0 20px 0;
+  }
+
+.genres-hdl {
+    color: $primary-color;
+    font-weight: 900;
+    margin: 0 0 0 50px ;
+
+}
+

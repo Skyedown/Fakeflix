@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.movies-container {
+  width: 100%;
+}
+
+.genre-movies-container {
+  display: flex;
+  padding: 0 0 20px 0;
+}
+
+.genres-hdl {
+  color: #492B9E;
+  font-weight: 900;
+  margin: 0 0 0 50px;
+}/*# sourceMappingURL=MoviesByGenre.css.map */

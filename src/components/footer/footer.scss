@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.footer-container {
+    background-color: $secondary-color;
+    color: $primary-color;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+    margin: auto;
+
+    &>span>a {
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+}

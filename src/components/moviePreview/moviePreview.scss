@@ -1,0 +1,51 @@
+@import '../../styles/variables';
+
+
+.preview {
+    position: absolute ;
+    top: -12px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:550px;
+    border-radius: 15px;
+    align-items: center;
+    overflow: hidden;
+    z-index: 99;
+    
+
+    background-color: $primary-color;
+    color: white;    
+
+    &>h2 {
+        padding: 0 30px;
+    }
+
+
+    &-info-description {
+        padding: 15px;
+    }
+
+}
+
+
+
+.info-container {
+    padding: 10px;
+}
+
+.watch  {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: $secondary-color;
+    color: $primary-color;
+    font-weight: bold;
+    height: 30px;
+    margin-top: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+

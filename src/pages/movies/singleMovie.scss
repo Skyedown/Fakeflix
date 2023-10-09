@@ -1,0 +1,90 @@
+@import '../../styles/variables';
+
+.single-movie {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 40px 50px 20px;
+    background-color: $primary-color;
+    color: white;
+    margin: 0;
+}
+
+.title, .overview {
+    font-weight: bold;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+    &-static {
+        background-color: $secondary-color;
+        max-width: fit-content;
+        margin: auto;
+        padding: 10px;
+        border-radius: 5px;
+        color: $primary-color;
+    }
+
+    &-dynamic {
+        font-weight: normal;
+        flex: 2;
+
+    }
+
+    &-container {
+        flex: 1;
+
+    }
+
+
+}
+
+.title-dynamic {
+    font-weight: bold;
+}
+
+.overview {
+    margin-bottom: 20px;
+}
+
+.footing {
+    justify-content: space-around;
+    align-items: center;
+    border-top: solid $secondary-color;
+    margin: auto;
+}   
+
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 30px;
+
+        &-dynamic {
+
+            padding: 10px;
+            background-color: #fff;
+            color: $primary-color;
+            font-weight: bold;
+            border-radius: 10px;
+            margin-left: 30px;
+
+    
+}
+}
+
+
+.home-btn {
+    flex: 3;
+    text-decoration: none;
+    color: $primary-color;
+    background-color: $secondary-color;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}

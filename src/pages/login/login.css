@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-container {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  background-color: #492B9E;
+  color: #EBDE57;
+  font-weight: bold;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 16px 7px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 1px 1px 16px 7px rgba(0, 0, 0, 0.28);
+  width: 500px;
+}
+.login-container-title {
+  color: #EBDE57;
+  font-weight: 900;
+  margin: 0 0 40px 0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.login-form-mail, .login-form-password {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.login-form-mail > input, .login-form-password > input {
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #EBDE57;
+  outline: none;
+  width: 200px;
+}
+.login-form-mail > input::-moz-placeholder, .login-form-password > input::-moz-placeholder {
+  color: #492B9E;
+  font-weight: bold;
+}
+.login-form-mail > input:-ms-input-placeholder, .login-form-password > input:-ms-input-placeholder {
+  color: #492B9E;
+  font-weight: bold;
+}
+.login-form-mail > input::placeholder, .login-form-password > input::placeholder {
+  color: #492B9E;
+  font-weight: bold;
+}
+.login-form-button {
+  background-color: #EBDE57;
+  padding: 15px;
+  margin: auto;
+  width: 200px;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  color: #492B9E;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.register-btn {
+  color: #EBDE57;
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=login.css.map */

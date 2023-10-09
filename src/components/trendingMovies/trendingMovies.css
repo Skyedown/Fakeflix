@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.featured-movies-container {
+  display: flex;
+  padding: 30px 0 20px 0;
+  overflow-x: scroll;
+  z-index: 1;
+}
+
+.trending-hdl {
+  color: #492B9E;
+  font-weight: 900;
+  margin: 20px 0 0 50px;
+}/*# sourceMappingURL=trendingMovies.css.map */
